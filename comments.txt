@@ -1,0 +1,23 @@
+npm init
+npm i express mongoose body-parser(a middleware) dotenv
+
+*body-parser->help to read data which is passed in url when client communicate to the server
+
+mkdir src(for back-end)
+mkdir public(for front-end)
+cd public
+mkdir js
+mkdir css
+echo . > index.html
+
+cd src
+mkdir models
+mkdir routes (where to go)
+mkdir controllers (after go, what to do)
+
+echo . > db.js
+echo . > server.js
+
+package.json->script->"start": "nodemon src/server.js"
+
+npm i nodemon
